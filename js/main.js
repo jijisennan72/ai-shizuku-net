@@ -16,7 +16,8 @@ const CAT_LABELS = {
   marketing: { text: 'マーケティング', cls: 'badge-green' },
   coding: { text: 'プログラミング', cls: 'badge-blue' },
   business: { text: 'ビジネス', cls: 'badge-purple' },
-  education: { text: '学習・教育', cls: 'badge-green' }
+  education: { text: '学習・教育', cls: 'badge-green' },
+  github: { text: 'GitHub', cls: 'badge-teal' }
 };
 
 let allTools = [];

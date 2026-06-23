@@ -1701,7 +1701,11 @@
     ],
     "featured": false,
     "desc": "Apple開発者向けのAIコーディング支援。Swift・Objective-Cのコード補完とXcode統合。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-012",
@@ -1715,7 +1719,11 @@
     ],
     "featured": false,
     "desc": "IntelliJ・PyCharm・WebStormなどJetBrains IDE全般に対応したAIコーディング支援。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-013",
@@ -1729,7 +1737,11 @@
     ],
     "featured": false,
     "desc": "エンジニア向けエディタNeovimでCopilotを使えるプラグイン。ターミナル環境でのAI補完。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-014",
@@ -1743,7 +1755,11 @@
     ],
     "featured": false,
     "desc": "外部サービスをCopilot Chatに統合する拡張機能。DockerやDatadogなど多数対応。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-015",
@@ -1757,7 +1773,11 @@
     ],
     "featured": false,
     "desc": "セキュリティ脆弱性を自動検出し、修正コードを提案するAI機能。Code Scanningと連携。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-016",
@@ -1771,7 +1791,11 @@
     ],
     "featured": false,
     "desc": "プルリクエストのサマリー自動生成・レビューコメント提案。コードレビュー効率化。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-017",
@@ -1785,7 +1809,11 @@
     ],
     "featured": false,
     "desc": "Azure開発に特化したCopilot拡張。Azureリソースの操作・デプロイをチャットで実行。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-018",
@@ -1799,7 +1827,11 @@
     ],
     "featured": false,
     "desc": "組織・チーム単位でCopilot利用状況を分析できるAPI。生産性計測に活用。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-019",
@@ -1813,7 +1845,11 @@
     ],
     "featured": false,
     "desc": "社内コードベースをCopilotに学習させてカスタム回答を生成。企業向け機能。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-020",
@@ -1827,7 +1863,11 @@
     ],
     "featured": false,
     "desc": "自社コードで追加学習したカスタムモデルを作成。コーディングスタイルに最適化。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-021",
@@ -1841,7 +1881,11 @@
     ],
     "featured": false,
     "desc": "AIを活用した高度なセキュリティスキャン。秘密情報の漏洩検知とコード解析。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-022",
@@ -1855,7 +1899,11 @@
     ],
     "featured": false,
     "desc": "長いDiscussionスレッドをAIが要約。重要な議論のポイントを素早く把握できる。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-023",
@@ -1869,7 +1917,11 @@
     ],
     "featured": false,
     "desc": "Issueの内容をAIが解析して自動ラベル付け。トリアージ作業を大幅に効率化。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-024",
@@ -1883,7 +1935,11 @@
     ],
     "featured": false,
     "desc": "スマートフォンからCopilot Chatでコードの質問・解説が受けられるモバイル版。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-025",
@@ -1897,7 +1953,11 @@
     ],
     "featured": false,
     "desc": "GitHub公式ドキュメントに組み込まれたAIアシスタント。使い方をチャット形式で案内。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-026",
@@ -1911,7 +1971,11 @@
     ],
     "featured": false,
     "desc": "既存のコードをAIが自然言語で解説する機能。コードリーディングの学習に最適。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-027",
@@ -1925,7 +1989,11 @@
     ],
     "featured": false,
     "desc": "関数・メソッドに対するユニットテストコードをAIが自動生成。テストカバレッジ向上。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-028",
@@ -1939,7 +2007,11 @@
     ],
     "featured": false,
     "desc": "Java開発の定番IDEであるEclipseにCopilotを統合。Java・Spring開発を支援。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-029",
@@ -1953,7 +2025,11 @@
     ],
     "featured": true,
     "desc": "GPT-4o・Claude・Llama等のモデルをブラウザ上で無料試用できる比較検証ツール。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-030",
@@ -1967,7 +2043,11 @@
     ],
     "featured": false,
     "desc": "ステージングしたコード変更からコミットメッセージをAIが自動生成。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-031",
@@ -1981,7 +2061,11 @@
     ],
     "featured": false,
     "desc": "/explain・/fix・/tests など専用コマンドで素早くAI機能を呼び出せる。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-032",
@@ -1995,7 +2079,11 @@
     ],
     "featured": false,
     "desc": "ワークフロー実行結果をAIが要約。失敗原因の特定と修正提案を自動化。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-033",
@@ -2009,7 +2097,11 @@
     ],
     "featured": false,
     "desc": "ターミナルでghコマンドを使ってCopilotに質問。シェルコマンドの提案・説明も可能。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-034",
@@ -2023,7 +2115,11 @@
     ],
     "featured": false,
     "desc": "エディタ上でコードを選択してその場でAIとチャット。コンテキストを保ったまま修正依頼。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-035",
@@ -2037,7 +2133,11 @@
     ],
     "featured": false,
     "desc": "テキストエディタVimでCopilotコード補完を利用できるプラグイン。軽量環境向け。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-036",
@@ -2051,7 +2151,11 @@
     ],
     "featured": false,
     "desc": "複数ファイルにまたがる変更をCopilotが一括提案・適用。大規模リファクタリングに対応。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-037",
@@ -2065,7 +2169,11 @@
     ],
     "featured": false,
     "desc": "#file・#selection など変数でCopilotに文脈を渡す機能。より精度の高い回答を実現。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-038",
@@ -2079,7 +2187,11 @@
     ],
     "featured": false,
     "desc": "Jupyter Notebookでセル単位のコード補完・説明をAIが支援。データサイエンス向け。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-039",
@@ -2093,7 +2205,11 @@
     ],
     "featured": false,
     "desc": "Copilotの提案に対してサムズアップ・ダウンでフィードバック。個人モデルの改善に貢献。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-040",
@@ -2107,7 +2223,11 @@
     ],
     "featured": false,
     "desc": "企業向けCopilotプラン。ポリシー管理・監査ログ・シートライセンス一括管理。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-041",
@@ -2121,7 +2241,11 @@
     ],
     "featured": false,
     "desc": "学生・教育者向け無料提供プログラム。プログラミング学習をAIがサポート。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-042",
@@ -2135,7 +2259,11 @@
     ],
     "featured": false,
     "desc": "認定オープンソース開発者向け無料プログラム。コントリビューター支援制度。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-043",
@@ -2149,7 +2277,11 @@
     ],
     "featured": false,
     "desc": "依存パッケージの脆弱性をAIが分析・優先度付けして自動PR作成。セキュリティ管理を効率化。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-044",
@@ -2163,7 +2295,11 @@
     ],
     "featured": false,
     "desc": ".NET・C#開発者向けのVisual Studio統合版Copilot。エンタープライズ開発を支援。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-045",
@@ -2177,7 +2313,11 @@
     ],
     "featured": false,
     "desc": "音声コマンドでCopilotを操作できる実験的機能。ハンズフリーコーディングを実現。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-046",
@@ -2191,7 +2331,11 @@
     ],
     "featured": false,
     "desc": "GitHubの次世代AI研究プロジェクト群。Hey GitHub・コードブラシなど実験的機能を公開。",
-    "price": "free"
+    "price": "free",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-047",
@@ -2205,7 +2349,11 @@
     ],
     "featured": false,
     "desc": "エラーメッセージや例外スタックトレースをAIが解析し、原因と修正方法を提案。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-048",
@@ -2219,7 +2367,11 @@
     ],
     "featured": false,
     "desc": "プロジェクトのコーディング規約やスタイルガイドをCopilotに事前学習させる機能。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-049",
@@ -2233,7 +2385,11 @@
     ],
     "featured": false,
     "desc": "Azure DevOpsのパイプライン・ボードをCopilotと連携。作業効率を向上させる拡張。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   },
   {
     "id": "github-050",
@@ -2247,6 +2403,10 @@
     ],
     "featured": true,
     "desc": "Issueから実装計画→コード生成→テストまで一気通貫でAIがこなすフルエージェント機能。",
-    "price": "paid"
+    "price": "paid",
+    "icon": "🐙",
+    "iconBg": "#f0fdf4",
+    "rating": 4.5,
+    "new": true
   }
 ]
