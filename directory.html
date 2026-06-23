@@ -34,22 +34,16 @@
 <section class="section-sm">
   <div class="container">
 
-    <div class="filter-bar">
-      <button class="filter-chip active" onclick="setFilter(this,'all')">すべて</button>
-      <button class="filter-chip" onclick="setFilter(this,'writing')">✍️ 文章作成</button>
-      <button class="filter-chip" onclick="setFilter(this,'design')">🎨 デザイン</button>
-      <button class="filter-chip" onclick="setFilter(this,'video')">🎬 動画</button>
-      <button class="filter-chip" onclick="setFilter(this,'productivity')">⚡ 仕事効率化</button>
-      <button class="filter-chip" onclick="setFilter(this,'marketing')">📢 マーケティング</button>
-      <button class="filter-chip" onclick="setFilter(this,'coding')">💻 プログラミング</button>
-      <button class="filter-chip" onclick="setFilter(this,'business')">💼 ビジネス</button>
-      <button class="filter-chip" onclick="setFilter(this,'education')">📚 学習</button>
-      <button class="filter-chip" onclick="setFilter(this,'github')">🐙 GitHub AI</button>
-      <span style="margin-left:auto;display:flex;gap:8px;">
+    <!-- 大分類タブ -->
+    <div id="genreTabs" class="genre-tabs" style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;"></div>
+    <!-- 中分類チップ -->
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+      <div id="catChips" style="display:flex;gap:8px;flex-wrap:wrap;flex:1;"></div>
+      <div style="display:flex;gap:8px;margin-left:auto;">
         <button class="filter-chip" onclick="setPriceFilter(this,'free')">🆓 無料</button>
         <button class="filter-chip" onclick="setPriceFilter(this,'freemium')">無料プランあり</button>
         <button class="filter-chip" onclick="setPriceFilter(this,'paid')">有料</button>
-      </span>
+      </div>
     </div>
 
     <div class="grid-3" id="toolsGrid">

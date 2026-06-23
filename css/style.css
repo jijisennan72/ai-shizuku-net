@@ -124,3 +124,39 @@ footer ul a:hover{color:var(--teal);}
 }
 @media(max-width:480px){.category-grid{grid-template-columns:repeat(3,1fr);}.footer-grid{grid-template-columns:1fr;}}
 .text-center{text-align:center;}.text-teal{color:var(--teal);}.mt-6{margin-top:24px;}.mb-4{margin-bottom:16px;}.hidden{display:none;}
+
+/* ===== 大分類タブ ===== */
+.genre-tab {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 2px solid #e2e8f0;
+  background: white;
+  color: #64748b;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.genre-tab:hover {
+  border-color: #0ea5e9;
+  color: #0ea5e9;
+}
+.genre-tab.active {
+  background: #0ea5e9;
+  border-color: #0ea5e9;
+  color: white;
+}
+.genre-count {
+  background: rgba(255,255,255,0.3);
+  border-radius: 10px;
+  padding: 1px 7px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+.genre-tab:not(.active) .genre-count {
+  background: #e2e8f0;
+  color: #64748b;
+}

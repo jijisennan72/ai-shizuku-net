@@ -10,7 +10,8 @@
     "rating": 4.8,
     "url": "https://chat.openai.com",
     "new": false,
-    "featured": true
+    "featured": true,
+    "genre": "chat"
   },
   {
     "id": "claude",
@@ -23,7 +24,8 @@
     "rating": 4.7,
     "url": "https://claude.ai",
     "new": true,
-    "featured": true
+    "featured": true,
+    "genre": "chat"
   },
   {
     "id": "gemini",
@@ -36,7 +38,8 @@
     "rating": 4.5,
     "url": "https://gemini.google.com",
     "new": false,
-    "featured": true
+    "featured": true,
+    "genre": "chat"
   },
   {
     "id": "copilot",
@@ -49,7 +52,8 @@
     "rating": 4.4,
     "url": "https://copilot.microsoft.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "chat"
   },
   {
     "id": "jasper",
@@ -62,7 +66,8 @@
     "rating": 4.3,
     "url": "https://www.jasper.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "perplexity",
@@ -75,7 +80,8 @@
     "rating": 4.6,
     "url": "https://www.perplexity.ai",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "chat"
   },
   {
     "id": "notebooklm",
@@ -88,7 +94,8 @@
     "rating": 4.5,
     "url": "https://notebooklm.google.com",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "chat"
   },
   {
     "id": "gamma",
@@ -101,7 +108,8 @@
     "rating": 4.4,
     "url": "https://gamma.app",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "canva",
@@ -114,7 +122,8 @@
     "rating": 4.7,
     "url": "https://www.canva.com",
     "new": false,
-    "featured": true
+    "featured": true,
+    "genre": "creative"
   },
   {
     "id": "midjourney",
@@ -127,7 +136,8 @@
     "rating": 4.9,
     "url": "https://www.midjourney.com",
     "new": false,
-    "featured": true
+    "featured": true,
+    "genre": "creative"
   },
   {
     "id": "adobefirefly",
@@ -140,7 +150,8 @@
     "rating": 4.4,
     "url": "https://firefly.adobe.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "leonardoai",
@@ -153,7 +164,8 @@
     "rating": 4.5,
     "url": "https://leonardo.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "ideogram",
@@ -166,7 +178,8 @@
     "rating": 4.3,
     "url": "https://ideogram.ai",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "heygen",
@@ -179,7 +192,8 @@
     "rating": 4.4,
     "url": "https://www.heygen.com",
     "new": false,
-    "featured": true
+    "featured": true,
+    "genre": "creative"
   },
   {
     "id": "synthesia",
@@ -192,7 +206,8 @@
     "rating": 4.5,
     "url": "https://www.synthesia.io",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "runway",
@@ -205,7 +220,8 @@
     "rating": 4.4,
     "url": "https://runwayml.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "opusclip",
@@ -218,7 +234,8 @@
     "rating": 4.3,
     "url": "https://www.opus.pro",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "pictory",
@@ -231,7 +248,8 @@
     "rating": 4.2,
     "url": "https://pictory.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "notta",
@@ -244,7 +262,8 @@
     "rating": 4.6,
     "url": "https://www.notta.ai/ja",
     "new": false,
-    "featured": true
+    "featured": true,
+    "genre": "work"
   },
   {
     "id": "notion",
@@ -257,7 +276,8 @@
     "rating": 4.5,
     "url": "https://www.notion.so",
     "new": false,
-    "featured": true
+    "featured": true,
+    "genre": "work"
   },
   {
     "id": "fathom",
@@ -270,7 +290,8 @@
     "rating": 4.6,
     "url": "https://fathom.video",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "otterai",
@@ -283,7 +304,8 @@
     "rating": 4.4,
     "url": "https://otter.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "reclaim",
@@ -296,7 +318,8 @@
     "rating": 4.3,
     "url": "https://reclaim.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "copyai",
@@ -309,7 +332,8 @@
     "rating": 4.3,
     "url": "https://www.copy.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "writesonic",
@@ -322,7 +346,8 @@
     "rating": 4.2,
     "url": "https://writesonic.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "surfer",
@@ -335,7 +360,8 @@
     "rating": 4.4,
     "url": "https://surferseo.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "elevenlabs",
@@ -348,7 +374,8 @@
     "rating": 4.7,
     "url": "https://elevenlabs.io",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "suno",
@@ -361,7 +388,8 @@
     "rating": 4.4,
     "url": "https://suno.com",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "githubcopilot",
@@ -374,7 +402,8 @@
     "rating": 4.8,
     "url": "https://github.com/features/copilot",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "cursor",
@@ -387,7 +416,8 @@
     "rating": 4.8,
     "url": "https://www.cursor.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "claudecode",
@@ -400,7 +430,8 @@
     "rating": 4.7,
     "url": "https://claude.ai/code",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "lovable",
@@ -413,7 +444,8 @@
     "rating": 4.5,
     "url": "https://lovable.dev",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "v0",
@@ -426,7 +458,8 @@
     "rating": 4.5,
     "url": "https://v0.dev",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "zapier",
@@ -439,7 +472,8 @@
     "rating": 4.4,
     "url": "https://zapier.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "make",
@@ -452,7 +486,8 @@
     "rating": 4.3,
     "url": "https://www.make.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "fireflies",
@@ -465,7 +500,8 @@
     "rating": 4.4,
     "url": "https://fireflies.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "khanmigo",
@@ -478,7 +514,8 @@
     "rating": 4.5,
     "url": "https://www.khanacademy.org/khanmigo",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "duolingo",
@@ -491,7 +528,8 @@
     "rating": 4.6,
     "url": "https://www.duolingo.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "speechify",
@@ -504,7 +542,8 @@
     "rating": 4.3,
     "url": "https://speechify.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "quizgecko",
@@ -517,7 +556,8 @@
     "rating": 4.2,
     "url": "https://quizgecko.com",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "grammarly",
@@ -530,7 +570,8 @@
     "rating": 4.6,
     "url": "https://www.grammarly.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "deepl",
@@ -543,7 +584,8 @@
     "rating": 4.8,
     "url": "https://www.deepl.com/ja/translator",
     "new": false,
-    "featured": true
+    "featured": true,
+    "genre": "work"
   },
   {
     "id": "aiseo",
@@ -556,7 +598,8 @@
     "rating": 4.2,
     "url": "https://aiseo.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "rytr",
@@ -569,7 +612,8 @@
     "rating": 4.1,
     "url": "https://rytr.me",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "sudowrite",
@@ -582,7 +626,8 @@
     "rating": 4.3,
     "url": "https://www.sudowrite.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "stable-diffusion",
@@ -595,7 +640,8 @@
     "rating": 4.5,
     "url": "https://stability.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "dalle3",
@@ -608,7 +654,8 @@
     "rating": 4.5,
     "url": "https://openai.com/dall-e-3",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "figma-ai",
@@ -621,7 +668,8 @@
     "rating": 4.4,
     "url": "https://www.figma.com",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "remove-bg",
@@ -634,7 +682,8 @@
     "rating": 4.6,
     "url": "https://www.remove.bg",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "looka",
@@ -647,7 +696,8 @@
     "rating": 4.2,
     "url": "https://looka.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "descript",
@@ -660,7 +710,8 @@
     "rating": 4.5,
     "url": "https://www.descript.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "captions",
@@ -673,7 +724,8 @@
     "rating": 4.4,
     "url": "https://www.captions.ai",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "veed",
@@ -686,7 +738,8 @@
     "rating": 4.3,
     "url": "https://www.veed.io",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "invideo",
@@ -699,7 +752,8 @@
     "rating": 4.3,
     "url": "https://invideo.io",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "lumen5",
@@ -712,7 +766,8 @@
     "rating": 4.1,
     "url": "https://lumen5.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "clickup-ai",
@@ -725,7 +780,8 @@
     "rating": 4.4,
     "url": "https://clickup.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "motion",
@@ -738,7 +794,8 @@
     "rating": 4.3,
     "url": "https://www.usemotion.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "mem",
@@ -751,7 +808,8 @@
     "rating": 4.2,
     "url": "https://get.mem.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "todoist-ai",
@@ -764,7 +822,8 @@
     "rating": 4.4,
     "url": "https://todoist.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "tldv",
@@ -777,7 +836,8 @@
     "rating": 4.5,
     "url": "https://tldv.io",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "buffer-ai",
@@ -790,7 +850,8 @@
     "rating": 4.3,
     "url": "https://buffer.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "hootsuite-ai",
@@ -803,7 +864,8 @@
     "rating": 4.2,
     "url": "https://www.hootsuite.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "phrasee",
@@ -816,7 +878,8 @@
     "rating": 4.1,
     "url": "https://phrasee.co",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "anyword",
@@ -829,7 +892,8 @@
     "rating": 4.2,
     "url": "https://anyword.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "semrush-ai",
@@ -842,7 +906,8 @@
     "rating": 4.5,
     "url": "https://www.semrush.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "replit",
@@ -855,7 +920,8 @@
     "rating": 4.4,
     "url": "https://replit.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "codeium",
@@ -868,7 +934,8 @@
     "rating": 4.5,
     "url": "https://codeium.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "tabnine",
@@ -881,7 +948,8 @@
     "rating": 4.3,
     "url": "https://www.tabnine.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "bolt",
@@ -894,7 +962,8 @@
     "rating": 4.5,
     "url": "https://bolt.new",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "windsurf",
@@ -907,7 +976,8 @@
     "rating": 4.6,
     "url": "https://codeium.com/windsurf",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "salesforce-ai",
@@ -920,7 +990,8 @@
     "rating": 4.3,
     "url": "https://www.salesforce.com/jp/products/einstein/",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "hubspot-ai",
@@ -933,7 +1004,8 @@
     "rating": 4.4,
     "url": "https://www.hubspot.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "n8n",
@@ -946,7 +1018,8 @@
     "rating": 4.5,
     "url": "https://n8n.io",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "monday-ai",
@@ -959,7 +1032,8 @@
     "rating": 4.3,
     "url": "https://monday.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "intercom-ai",
@@ -972,7 +1046,8 @@
     "rating": 4.4,
     "url": "https://www.intercom.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "khan-academy",
@@ -985,7 +1060,8 @@
     "rating": 4.7,
     "url": "https://ja.khanacademy.org",
     "new": false,
-    "featured": true
+    "featured": true,
+    "genre": "education"
   },
   {
     "id": "photomath",
@@ -998,7 +1074,8 @@
     "rating": 4.6,
     "url": "https://photomath.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "elsa-speak",
@@ -1011,7 +1088,8 @@
     "rating": 4.4,
     "url": "https://elsaspeak.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "socratic",
@@ -1024,7 +1102,8 @@
     "rating": 4.5,
     "url": "https://socratic.org",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "coursera-ai",
@@ -1037,7 +1116,8 @@
     "rating": 4.3,
     "url": "https://www.coursera.org",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "beautifulai",
@@ -1050,7 +1130,8 @@
     "rating": 4.3,
     "url": "https://www.beautiful.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "lex",
@@ -1063,7 +1144,8 @@
     "rating": 4.2,
     "url": "https://lex.page",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "wordtune",
@@ -1076,7 +1158,8 @@
     "rating": 4.3,
     "url": "https://www.wordtune.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "quillbot",
@@ -1089,7 +1172,8 @@
     "rating": 4.4,
     "url": "https://quillbot.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "hyperwrite",
@@ -1102,7 +1186,8 @@
     "rating": 4.1,
     "url": "https://www.hyperwriteai.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "imagen3",
@@ -1115,7 +1200,8 @@
     "rating": 4.5,
     "url": "https://labs.google/fx/tools/image-fx",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "krea",
@@ -1128,7 +1214,8 @@
     "rating": 4.4,
     "url": "https://www.krea.ai",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "clipdrop",
@@ -1141,7 +1228,8 @@
     "rating": 4.3,
     "url": "https://clipdrop.co",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "adobe-express",
@@ -1154,7 +1242,8 @@
     "rating": 4.3,
     "url": "https://www.adobe.com/jp/express/",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "microsoft-designer",
@@ -1167,7 +1256,8 @@
     "rating": 4.2,
     "url": "https://designer.microsoft.com",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "kling",
@@ -1180,7 +1270,8 @@
     "rating": 4.5,
     "url": "https://klingai.com",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "hailuo",
@@ -1193,7 +1284,8 @@
     "rating": 4.4,
     "url": "https://hailuoai.video",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "capcut-ai",
@@ -1206,7 +1298,8 @@
     "rating": 4.5,
     "url": "https://www.capcut.com/ja-jp/",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "fliki",
@@ -1219,7 +1312,8 @@
     "rating": 4.2,
     "url": "https://fliki.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "pika",
@@ -1232,7 +1326,8 @@
     "rating": 4.3,
     "url": "https://pika.art",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "creative"
   },
   {
     "id": "akiflow",
@@ -1245,7 +1340,8 @@
     "rating": 4.4,
     "url": "https://akiflow.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "sunsama",
@@ -1258,7 +1354,8 @@
     "rating": 4.3,
     "url": "https://www.sunsama.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "superhuman",
@@ -1271,7 +1368,8 @@
     "rating": 4.4,
     "url": "https://superhuman.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "shortwave",
@@ -1284,7 +1382,8 @@
     "rating": 4.3,
     "url": "https://www.shortwave.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "linear-ai",
@@ -1297,7 +1396,8 @@
     "rating": 4.5,
     "url": "https://linear.app",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "adcreative",
@@ -1310,7 +1410,8 @@
     "rating": 4.3,
     "url": "https://www.adcreative.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "predis",
@@ -1323,7 +1424,8 @@
     "rating": 4.2,
     "url": "https://predis.ai",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "taplio",
@@ -1336,7 +1438,8 @@
     "rating": 4.2,
     "url": "https://taplio.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "ocoya",
@@ -1349,7 +1452,8 @@
     "rating": 4.1,
     "url": "https://www.ocoya.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "flick",
@@ -1362,7 +1466,8 @@
     "rating": 4.2,
     "url": "https://www.flick.social",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "blackboxai",
@@ -1375,7 +1480,8 @@
     "rating": 4.3,
     "url": "https://www.blackbox.ai",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "pieces",
@@ -1388,7 +1494,8 @@
     "rating": 4.2,
     "url": "https://pieces.app",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "aider",
@@ -1401,7 +1508,8 @@
     "rating": 4.4,
     "url": "https://aider.chat",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "zed",
@@ -1414,7 +1522,8 @@
     "rating": 4.4,
     "url": "https://zed.dev",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "continue",
@@ -1427,7 +1536,8 @@
     "rating": 4.3,
     "url": "https://www.continue.dev",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "rows",
@@ -1440,7 +1550,8 @@
     "rating": 4.3,
     "url": "https://rows.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "airtable-ai",
@@ -1453,7 +1564,8 @@
     "rating": 4.3,
     "url": "https://www.airtable.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "manus",
@@ -1466,7 +1578,8 @@
     "rating": 4.2,
     "url": "https://manus.im",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "base44",
@@ -1479,7 +1592,8 @@
     "rating": 4.3,
     "url": "https://base44.com",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "taskade",
@@ -1492,7 +1606,8 @@
     "rating": 4.2,
     "url": "https://www.taskade.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "work"
   },
   {
     "id": "consensus",
@@ -1505,7 +1620,8 @@
     "rating": 4.5,
     "url": "https://consensus.app",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "wolfram",
@@ -1518,7 +1634,8 @@
     "rating": 4.6,
     "url": "https://www.wolframalpha.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "quizlet-ai",
@@ -1531,7 +1648,8 @@
     "rating": 4.4,
     "url": "https://quizlet.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "scribe",
@@ -1544,7 +1662,8 @@
     "rating": 4.5,
     "url": "https://scribehow.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "explain-everything",
@@ -1557,7 +1676,8 @@
     "rating": 4.2,
     "url": "https://explaineverything.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "education"
   },
   {
     "id": "github-copilot-chat",
@@ -1570,7 +1690,8 @@
     "rating": 4.8,
     "url": "https://github.com/features/copilot",
     "new": false,
-    "featured": true
+    "featured": true,
+    "genre": "dev"
   },
   {
     "id": "github-spark",
@@ -1583,7 +1704,8 @@
     "rating": 4.7,
     "url": "https://github.com/features/spark",
     "new": true,
-    "featured": true
+    "featured": true,
+    "genre": "dev"
   },
   {
     "id": "github-models",
@@ -1596,7 +1718,8 @@
     "rating": 4.6,
     "url": "https://github.com/marketplace/models",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "github-copilot-agent",
@@ -1609,7 +1732,8 @@
     "rating": 4.6,
     "url": "https://github.com/features/copilot",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "github-actions-ai",
@@ -1622,7 +1746,8 @@
     "rating": 4.5,
     "url": "https://github.com/features/actions",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "github-copilot-review",
@@ -1635,7 +1760,8 @@
     "rating": 4.5,
     "url": "https://github.com/features/copilot",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "github-mcp",
@@ -1648,7 +1774,8 @@
     "rating": 4.4,
     "url": "https://github.com/github/github-mcp-server",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "github-codespaces",
@@ -1661,7 +1788,8 @@
     "rating": 4.5,
     "url": "https://github.com/features/codespaces",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "github-copilot-workspace",
@@ -1674,7 +1802,8 @@
     "rating": 4.4,
     "url": "https://githubnext.com/projects/copilot-workspace",
     "new": true,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "github-copilot-cli",
@@ -1687,7 +1816,8 @@
     "rating": 4.5,
     "url": "https://github.com/github/gh-copilot",
     "new": false,
-    "featured": false
+    "featured": false,
+    "genre": "dev"
   },
   {
     "id": "github-011",
@@ -1705,7 +1835,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-012",
@@ -1723,7 +1854,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-013",
@@ -1741,7 +1873,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-014",
@@ -1759,7 +1892,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-015",
@@ -1777,7 +1911,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-016",
@@ -1795,7 +1930,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-017",
@@ -1813,7 +1949,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-018",
@@ -1831,7 +1968,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-019",
@@ -1849,7 +1987,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-020",
@@ -1867,7 +2006,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-021",
@@ -1885,7 +2025,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-022",
@@ -1903,7 +2044,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-023",
@@ -1921,7 +2063,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-024",
@@ -1939,7 +2082,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-025",
@@ -1957,7 +2101,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-026",
@@ -1975,7 +2120,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-027",
@@ -1993,7 +2139,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-028",
@@ -2011,7 +2158,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-029",
@@ -2029,7 +2177,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-030",
@@ -2047,7 +2196,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-031",
@@ -2065,7 +2215,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-032",
@@ -2083,7 +2234,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-033",
@@ -2101,7 +2253,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-034",
@@ -2119,7 +2272,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-035",
@@ -2137,7 +2291,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-036",
@@ -2155,7 +2310,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-037",
@@ -2173,7 +2329,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-038",
@@ -2191,7 +2348,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-039",
@@ -2209,7 +2367,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-040",
@@ -2227,7 +2386,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-041",
@@ -2245,7 +2405,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-042",
@@ -2263,7 +2424,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-043",
@@ -2281,7 +2443,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-044",
@@ -2299,7 +2462,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-045",
@@ -2317,7 +2481,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-046",
@@ -2335,7 +2500,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-047",
@@ -2353,7 +2519,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-048",
@@ -2371,7 +2538,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-049",
@@ -2389,7 +2557,8 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   },
   {
     "id": "github-050",
@@ -2407,6 +2576,7 @@
     "icon": "🐙",
     "iconBg": "#f0fdf4",
     "rating": 4.5,
-    "new": true
+    "new": true,
+    "genre": "dev"
   }
 ]
