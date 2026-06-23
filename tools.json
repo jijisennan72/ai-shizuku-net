@@ -1688,5 +1688,565 @@
     "url": "https://github.com/github/gh-copilot",
     "new": false,
     "featured": false
+  },
+  {
+    "id": "github-011",
+    "name": "GitHub Copilot for Xcode",
+    "description": "Apple開発者向けのAIコーディング支援。Swift・Objective-Cのコード補完とXcode統合。",
+    "category": "github",
+    "url": "https://github.com/github/CopilotForXcode",
+    "pricing": "free",
+    "tags": [
+      "xcode",
+      "swift",
+      "ios開発"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-012",
+    "name": "GitHub Copilot for JetBrains",
+    "description": "IntelliJ・PyCharm・WebStormなどJetBrains IDE全般に対応したAIコーディング支援。",
+    "category": "github",
+    "url": "https://plugins.jetbrains.com/plugin/17718-github-copilot",
+    "pricing": "paid",
+    "tags": [
+      "jetbrains",
+      "intellij",
+      "python"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-013",
+    "name": "GitHub Copilot for Neovim",
+    "description": "エンジニア向けエディタNeovimでCopilotを使えるプラグイン。ターミナル環境でのAI補完。",
+    "category": "github",
+    "url": "https://github.com/github/copilot.vim",
+    "pricing": "paid",
+    "tags": [
+      "neovim",
+      "vim",
+      "ターミナル"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-014",
+    "name": "GitHub Copilot Extensions",
+    "description": "外部サービスをCopilot Chatに統合する拡張機能。DockerやDatadogなど多数対応。",
+    "category": "github",
+    "url": "https://github.com/features/copilot/extensions",
+    "pricing": "free",
+    "tags": [
+      "拡張機能",
+      "統合",
+      "エコシステム"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-015",
+    "name": "GitHub Copilot Autofix",
+    "description": "セキュリティ脆弱性を自動検出し、修正コードを提案するAI機能。Code Scanningと連携。",
+    "category": "github",
+    "url": "https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/responsible-use-autofix-code-scanning",
+    "pricing": "paid",
+    "tags": [
+      "セキュリティ",
+      "脆弱性",
+      "自動修正"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-016",
+    "name": "GitHub Copilot Pull Request",
+    "description": "プルリクエストのサマリー自動生成・レビューコメント提案。コードレビュー効率化。",
+    "category": "github",
+    "url": "https://github.com/features/copilot",
+    "pricing": "paid",
+    "tags": [
+      "プルリクエスト",
+      "コードレビュー",
+      "自動化"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-017",
+    "name": "GitHub Copilot for Azure",
+    "description": "Azure開発に特化したCopilot拡張。Azureリソースの操作・デプロイをチャットで実行。",
+    "category": "github",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azure-github-copilot",
+    "pricing": "free",
+    "tags": [
+      "azure",
+      "クラウド",
+      "デプロイ"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-018",
+    "name": "GitHub Copilot Metrics API",
+    "description": "組織・チーム単位でCopilot利用状況を分析できるAPI。生産性計測に活用。",
+    "category": "github",
+    "url": "https://docs.github.com/en/rest/copilot/copilot-metrics",
+    "pricing": "paid",
+    "tags": [
+      "メトリクス",
+      "分析",
+      "企業向け"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-019",
+    "name": "GitHub Copilot Knowledge Bases",
+    "description": "社内コードベースをCopilotに学習させてカスタム回答を生成。企業向け機能。",
+    "category": "github",
+    "url": "https://docs.github.com/en/copilot/customizing-copilot/managing-copilot-knowledge-bases",
+    "pricing": "paid",
+    "tags": [
+      "カスタマイズ",
+      "企業向け",
+      "知識ベース"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-020",
+    "name": "GitHub Copilot Fine-tuning",
+    "description": "自社コードで追加学習したカスタムモデルを作成。コーディングスタイルに最適化。",
+    "category": "github",
+    "url": "https://github.com/features/copilot/plans",
+    "pricing": "paid",
+    "tags": [
+      "ファインチューニング",
+      "カスタムモデル",
+      "企業向け"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-021",
+    "name": "GitHub Advanced Security AI",
+    "description": "AIを活用した高度なセキュリティスキャン。秘密情報の漏洩検知とコード解析。",
+    "category": "github",
+    "url": "https://github.com/features/security",
+    "pricing": "paid",
+    "tags": [
+      "セキュリティ",
+      "SAST",
+      "秘密情報検出"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-022",
+    "name": "GitHub Discussions AI Summary",
+    "description": "長いDiscussionスレッドをAIが要約。重要な議論のポイントを素早く把握できる。",
+    "category": "github",
+    "url": "https://github.com/features/discussions",
+    "pricing": "free",
+    "tags": [
+      "discussions",
+      "要約",
+      "コミュニティ"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-023",
+    "name": "GitHub Issue AI Labeler",
+    "description": "Issueの内容をAIが解析して自動ラベル付け。トリアージ作業を大幅に効率化。",
+    "category": "github",
+    "url": "https://github.com/features/issues",
+    "pricing": "free",
+    "tags": [
+      "issue管理",
+      "ラベル",
+      "自動化"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-024",
+    "name": "GitHub Copilot Chat for Mobile",
+    "description": "スマートフォンからCopilot Chatでコードの質問・解説が受けられるモバイル版。",
+    "category": "github",
+    "url": "https://github.com/mobile",
+    "pricing": "paid",
+    "tags": [
+      "モバイル",
+      "スマートフォン",
+      "チャット"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-025",
+    "name": "GitHub Copilot for Docs",
+    "description": "GitHub公式ドキュメントに組み込まれたAIアシスタント。使い方をチャット形式で案内。",
+    "category": "github",
+    "url": "https://docs.github.com",
+    "pricing": "free",
+    "tags": [
+      "ドキュメント",
+      "チュートリアル",
+      "サポート"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-026",
+    "name": "GitHub Copilot Explain",
+    "description": "既存のコードをAIが自然言語で解説する機能。コードリーディングの学習に最適。",
+    "category": "github",
+    "url": "https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide",
+    "pricing": "paid",
+    "tags": [
+      "コード解説",
+      "学習",
+      "ドキュメント化"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-027",
+    "name": "GitHub Copilot Test Generation",
+    "description": "関数・メソッドに対するユニットテストコードをAIが自動生成。テストカバレッジ向上。",
+    "category": "github",
+    "url": "https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide",
+    "pricing": "paid",
+    "tags": [
+      "テスト",
+      "ユニットテスト",
+      "品質"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-028",
+    "name": "GitHub Copilot for Eclipse",
+    "description": "Java開発の定番IDEであるEclipseにCopilotを統合。Java・Spring開発を支援。",
+    "category": "github",
+    "url": "https://marketplace.eclipse.org/content/github-copilot",
+    "pricing": "paid",
+    "tags": [
+      "eclipse",
+      "java",
+      "spring"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-029",
+    "name": "GitHub Models Playground",
+    "description": "GPT-4o・Claude・Llama等のモデルをブラウザ上で無料試用できる比較検証ツール。",
+    "category": "github",
+    "url": "https://github.com/marketplace/models",
+    "pricing": "free",
+    "tags": [
+      "モデル比較",
+      "プレイグラウンド",
+      "無料"
+    ],
+    "featured": true
+  },
+  {
+    "id": "github-030",
+    "name": "GitHub Copilot Commit Message",
+    "description": "ステージングしたコード変更からコミットメッセージをAIが自動生成。",
+    "category": "github",
+    "url": "https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-for-pull-requests/creating-a-pull-request-summary-with-github-copilot",
+    "pricing": "paid",
+    "tags": [
+      "git",
+      "コミット",
+      "自動化"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-031",
+    "name": "GitHub Copilot Slash Commands",
+    "description": "/explain・/fix・/tests など専用コマンドで素早くAI機能を呼び出せる。",
+    "category": "github",
+    "url": "https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide",
+    "pricing": "paid",
+    "tags": [
+      "スラッシュコマンド",
+      "ショートカット",
+      "効率化"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-032",
+    "name": "GitHub Actions AI Summary",
+    "description": "ワークフロー実行結果をAIが要約。失敗原因の特定と修正提案を自動化。",
+    "category": "github",
+    "url": "https://github.com/features/actions",
+    "pricing": "free",
+    "tags": [
+      "CI/CD",
+      "ワークフロー",
+      "デバッグ"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-033",
+    "name": "GitHub Copilot for CLI（gh copilot）",
+    "description": "ターミナルでghコマンドを使ってCopilotに質問。シェルコマンドの提案・説明も可能。",
+    "category": "github",
+    "url": "https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-in-the-command-line",
+    "pricing": "paid",
+    "tags": [
+      "CLI",
+      "ターミナル",
+      "シェル"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-034",
+    "name": "GitHub Copilot Inline Chat",
+    "description": "エディタ上でコードを選択してその場でAIとチャット。コンテキストを保ったまま修正依頼。",
+    "category": "github",
+    "url": "https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide",
+    "pricing": "paid",
+    "tags": [
+      "インラインチャット",
+      "コンテキスト",
+      "VSCode"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-035",
+    "name": "GitHub Copilot for Vim",
+    "description": "テキストエディタVimでCopilotコード補完を利用できるプラグイン。軽量環境向け。",
+    "category": "github",
+    "url": "https://github.com/github/copilot.vim",
+    "pricing": "paid",
+    "tags": [
+      "vim",
+      "テキストエディタ",
+      "軽量"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-036",
+    "name": "GitHub Copilot Multi-file Editing",
+    "description": "複数ファイルにまたがる変更をCopilotが一括提案・適用。大規模リファクタリングに対応。",
+    "category": "github",
+    "url": "https://github.com/features/copilot",
+    "pricing": "paid",
+    "tags": [
+      "マルチファイル",
+      "リファクタリング",
+      "エージェント"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-037",
+    "name": "GitHub Copilot Context Variables",
+    "description": "#file・#selection など変数でCopilotに文脈を渡す機能。より精度の高い回答を実現。",
+    "category": "github",
+    "url": "https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide",
+    "pricing": "paid",
+    "tags": [
+      "コンテキスト",
+      "変数",
+      "精度向上"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-038",
+    "name": "GitHub Copilot for Jupyter",
+    "description": "Jupyter Notebookでセル単位のコード補完・説明をAIが支援。データサイエンス向け。",
+    "category": "github",
+    "url": "https://docs.github.com/en/copilot",
+    "pricing": "paid",
+    "tags": [
+      "jupyter",
+      "データサイエンス",
+      "python"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-039",
+    "name": "GitHub Copilot Feedback",
+    "description": "Copilotの提案に対してサムズアップ・ダウンでフィードバック。個人モデルの改善に貢献。",
+    "category": "github",
+    "url": "https://github.com/features/copilot",
+    "pricing": "free",
+    "tags": [
+      "フィードバック",
+      "改善",
+      "パーソナライズ"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-040",
+    "name": "GitHub Copilot for Business",
+    "description": "企業向けCopilotプラン。ポリシー管理・監査ログ・シートライセンス一括管理。",
+    "category": "github",
+    "url": "https://github.com/features/copilot/plans",
+    "pricing": "paid",
+    "tags": [
+      "企業向け",
+      "ポリシー管理",
+      "監査"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-041",
+    "name": "GitHub Copilot for Education",
+    "description": "学生・教育者向け無料提供プログラム。プログラミング学習をAIがサポート。",
+    "category": "github",
+    "url": "https://education.github.com/benefits",
+    "pricing": "free",
+    "tags": [
+      "教育",
+      "学生",
+      "無料"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-042",
+    "name": "GitHub Copilot Open Source",
+    "description": "認定オープンソース開発者向け無料プログラム。コントリビューター支援制度。",
+    "category": "github",
+    "url": "https://github.com/features/copilot/plans",
+    "pricing": "free",
+    "tags": [
+      "オープンソース",
+      "無料",
+      "コントリビューター"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-043",
+    "name": "GitHub Dependabot AI",
+    "description": "依存パッケージの脆弱性をAIが分析・優先度付けして自動PR作成。セキュリティ管理を効率化。",
+    "category": "github",
+    "url": "https://github.com/features/security/software-composition-analysis",
+    "pricing": "free",
+    "tags": [
+      "dependabot",
+      "セキュリティ",
+      "依存関係"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-044",
+    "name": "GitHub Copilot for Visual Studio",
+    "description": ".NET・C#開発者向けのVisual Studio統合版Copilot。エンタープライズ開発を支援。",
+    "category": "github",
+    "url": "https://visualstudio.microsoft.com/github-copilot/",
+    "pricing": "paid",
+    "tags": [
+      "visual studio",
+      ".net",
+      "c#"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-045",
+    "name": "GitHub Copilot Voice",
+    "description": "音声コマンドでCopilotを操作できる実験的機能。ハンズフリーコーディングを実現。",
+    "category": "github",
+    "url": "https://githubnext.com/projects/copilot-voice",
+    "pricing": "free",
+    "tags": [
+      "音声",
+      "ハンズフリー",
+      "実験的"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-046",
+    "name": "GitHub Next AI Projects",
+    "description": "GitHubの次世代AI研究プロジェクト群。Hey GitHub・コードブラシなど実験的機能を公開。",
+    "category": "github",
+    "url": "https://githubnext.com",
+    "pricing": "free",
+    "tags": [
+      "研究",
+      "実験的",
+      "次世代"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-047",
+    "name": "GitHub Copilot Debugging",
+    "description": "エラーメッセージや例外スタックトレースをAIが解析し、原因と修正方法を提案。",
+    "category": "github",
+    "url": "https://docs.github.com/en/copilot",
+    "pricing": "paid",
+    "tags": [
+      "デバッグ",
+      "エラー解析",
+      "修正提案"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-048",
+    "name": "GitHub Copilot Custom Instructions",
+    "description": "プロジェクトのコーディング規約やスタイルガイドをCopilotに事前学習させる機能。",
+    "category": "github",
+    "url": "https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot",
+    "pricing": "paid",
+    "tags": [
+      "カスタム指示",
+      "コーディング規約",
+      "チーム開発"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-049",
+    "name": "GitHub Copilot for Azure DevOps",
+    "description": "Azure DevOpsのパイプライン・ボードをCopilotと連携。作業効率を向上させる拡張。",
+    "category": "github",
+    "url": "https://marketplace.visualstudio.com/azuredevops",
+    "pricing": "paid",
+    "tags": [
+      "azure devops",
+      "パイプライン",
+      "統合"
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-050",
+    "name": "GitHub Copilot Workspace Agent",
+    "description": "Issueから実装計画→コード生成→テストまで一気通貫でAIがこなすフルエージェント機能。",
+    "category": "github",
+    "url": "https://githubnext.com/projects/copilot-workspace",
+    "pricing": "paid",
+    "tags": [
+      "フルエージェント",
+      "issue",
+      "自動実装"
+    ],
+    "featured": true
   }
 ]
