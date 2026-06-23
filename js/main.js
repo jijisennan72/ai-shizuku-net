@@ -224,10 +224,12 @@ function handleSubmit(e) {
 }
 
 // ===== 初期化 =====
-fetch('tools.json')
+const API_BASE = 'https://api.ai.shizuku.net';
+
+fetch(`${API_BASE}/api/tools?limit=200`)
   .then(r => r.json())
-  .then(data => {
-    allTools = data;
+  .then(result => {
+    allTools = result.tools || result;
 
     // URLパラメータで検索
     const params = new URLSearchParams(window.location.search);
@@ -243,4 +245,16 @@ fetch('tools.json')
     renderNew();
     updateCategoryCounts();
   })
-  .catch(err => console.error('tools.json 読み込みエラー:', err));
+  .catch(err => {
+    console.error('API読み込みエラー:', err);
+    // フォールバック：tools.jsonから読み込み
+    fetch('tools.json')
+      .then(r => r.json())
+      .then(data => {
+        allTools = data;
+        renderIndex();
+        renderDirectory();
+        renderNew();
+        updateCategoryCounts();
+      });
+  });
