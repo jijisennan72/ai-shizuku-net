@@ -11,7 +11,8 @@
     "url": "https://chat.openai.com",
     "new": false,
     "featured": true,
-    "genre": "chat"
+    "genre": "chat",
+    "vendor": "openai"
   },
   {
     "id": "claude",
@@ -25,7 +26,8 @@
     "url": "https://claude.ai",
     "new": true,
     "featured": true,
-    "genre": "chat"
+    "genre": "chat",
+    "vendor": "anthropic"
   },
   {
     "id": "gemini",
@@ -39,7 +41,8 @@
     "url": "https://gemini.google.com",
     "new": false,
     "featured": true,
-    "genre": "chat"
+    "genre": "chat",
+    "vendor": "google"
   },
   {
     "id": "copilot",
@@ -53,7 +56,8 @@
     "url": "https://copilot.microsoft.com",
     "new": false,
     "featured": false,
-    "genre": "chat"
+    "genre": "chat",
+    "vendor": "microsoft"
   },
   {
     "id": "jasper",
@@ -67,7 +71,8 @@
     "url": "https://www.jasper.ai",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "perplexity",
@@ -81,7 +86,8 @@
     "url": "https://www.perplexity.ai",
     "new": true,
     "featured": false,
-    "genre": "chat"
+    "genre": "chat",
+    "vendor": "other"
   },
   {
     "id": "notebooklm",
@@ -95,7 +101,8 @@
     "url": "https://notebooklm.google.com",
     "new": true,
     "featured": false,
-    "genre": "chat"
+    "genre": "chat",
+    "vendor": "google"
   },
   {
     "id": "gamma",
@@ -109,7 +116,8 @@
     "url": "https://gamma.app",
     "new": true,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "canva",
@@ -123,7 +131,8 @@
     "url": "https://www.canva.com",
     "new": false,
     "featured": true,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "midjourney",
@@ -137,7 +146,8 @@
     "url": "https://www.midjourney.com",
     "new": false,
     "featured": true,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "adobefirefly",
@@ -151,7 +161,8 @@
     "url": "https://firefly.adobe.com",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "adobe"
   },
   {
     "id": "leonardoai",
@@ -165,7 +176,8 @@
     "url": "https://leonardo.ai",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "ideogram",
@@ -179,7 +191,8 @@
     "url": "https://ideogram.ai",
     "new": true,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "heygen",
@@ -193,7 +206,8 @@
     "url": "https://www.heygen.com",
     "new": false,
     "featured": true,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "synthesia",
@@ -207,7 +221,8 @@
     "url": "https://www.synthesia.io",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "runway",
@@ -221,7 +236,8 @@
     "url": "https://runwayml.com",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "opusclip",
@@ -235,7 +251,8 @@
     "url": "https://www.opus.pro",
     "new": true,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "pictory",
@@ -249,7 +266,8 @@
     "url": "https://pictory.ai",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "notta",
@@ -263,7 +281,8 @@
     "url": "https://www.notta.ai/ja",
     "new": false,
     "featured": true,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "notion",
@@ -277,7 +296,8 @@
     "url": "https://www.notion.so",
     "new": false,
     "featured": true,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "fathom",
@@ -291,7 +311,8 @@
     "url": "https://fathom.video",
     "new": true,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "otterai",
@@ -305,7 +326,8 @@
     "url": "https://otter.ai",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "reclaim",
@@ -319,7 +341,8 @@
     "url": "https://reclaim.ai",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "copyai",
@@ -333,7 +356,8 @@
     "url": "https://www.copy.ai",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "writesonic",
@@ -347,7 +371,8 @@
     "url": "https://writesonic.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "surfer",
@@ -361,7 +386,8 @@
     "url": "https://surferseo.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "elevenlabs",
@@ -375,7 +401,8 @@
     "url": "https://elevenlabs.io",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "suno",
@@ -389,7 +416,8 @@
     "url": "https://suno.com",
     "new": true,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "githubcopilot",
@@ -403,7 +431,8 @@
     "url": "https://github.com/features/copilot",
     "new": false,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "cursor",
@@ -417,7 +446,8 @@
     "url": "https://www.cursor.com",
     "new": false,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "claudecode",
@@ -431,7 +461,8 @@
     "url": "https://claude.ai/code",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "anthropic"
   },
   {
     "id": "lovable",
@@ -445,7 +476,8 @@
     "url": "https://lovable.dev",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "v0",
@@ -459,7 +491,8 @@
     "url": "https://v0.dev",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "zapier",
@@ -473,7 +506,8 @@
     "url": "https://zapier.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "make",
@@ -487,7 +521,8 @@
     "url": "https://www.make.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "fireflies",
@@ -501,7 +536,8 @@
     "url": "https://fireflies.ai",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "khanmigo",
@@ -515,7 +551,8 @@
     "url": "https://www.khanacademy.org/khanmigo",
     "new": false,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "google"
   },
   {
     "id": "duolingo",
@@ -529,7 +566,8 @@
     "url": "https://www.duolingo.com",
     "new": false,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "other"
   },
   {
     "id": "speechify",
@@ -543,7 +581,8 @@
     "url": "https://speechify.com",
     "new": false,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "other"
   },
   {
     "id": "quizgecko",
@@ -557,7 +596,8 @@
     "url": "https://quizgecko.com",
     "new": true,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "other"
   },
   {
     "id": "grammarly",
@@ -571,7 +611,8 @@
     "url": "https://www.grammarly.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "deepl",
@@ -585,7 +626,8 @@
     "url": "https://www.deepl.com/ja/translator",
     "new": false,
     "featured": true,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "aiseo",
@@ -599,7 +641,8 @@
     "url": "https://aiseo.ai",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "rytr",
@@ -613,7 +656,8 @@
     "url": "https://rytr.me",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "sudowrite",
@@ -627,7 +671,8 @@
     "url": "https://www.sudowrite.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "stable-diffusion",
@@ -641,7 +686,8 @@
     "url": "https://stability.ai",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "dalle3",
@@ -655,7 +701,8 @@
     "url": "https://openai.com/dall-e-3",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "openai"
   },
   {
     "id": "figma-ai",
@@ -669,7 +716,8 @@
     "url": "https://www.figma.com",
     "new": true,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "remove-bg",
@@ -683,7 +731,8 @@
     "url": "https://www.remove.bg",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "looka",
@@ -697,7 +746,8 @@
     "url": "https://looka.com",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "descript",
@@ -711,7 +761,8 @@
     "url": "https://www.descript.com",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "captions",
@@ -725,7 +776,8 @@
     "url": "https://www.captions.ai",
     "new": true,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "veed",
@@ -739,7 +791,8 @@
     "url": "https://www.veed.io",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "invideo",
@@ -753,7 +806,8 @@
     "url": "https://invideo.io",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "lumen5",
@@ -767,7 +821,8 @@
     "url": "https://lumen5.com",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "clickup-ai",
@@ -781,7 +836,8 @@
     "url": "https://clickup.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "motion",
@@ -795,7 +851,8 @@
     "url": "https://www.usemotion.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "mem",
@@ -809,7 +866,8 @@
     "url": "https://get.mem.ai",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "todoist-ai",
@@ -823,7 +881,8 @@
     "url": "https://todoist.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "tldv",
@@ -837,7 +896,8 @@
     "url": "https://tldv.io",
     "new": true,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "buffer-ai",
@@ -851,7 +911,8 @@
     "url": "https://buffer.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "hootsuite-ai",
@@ -865,7 +926,8 @@
     "url": "https://www.hootsuite.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "phrasee",
@@ -879,7 +941,8 @@
     "url": "https://phrasee.co",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "anyword",
@@ -893,7 +956,8 @@
     "url": "https://anyword.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "semrush-ai",
@@ -907,7 +971,8 @@
     "url": "https://www.semrush.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "replit",
@@ -921,7 +986,8 @@
     "url": "https://replit.com",
     "new": false,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "codeium",
@@ -935,7 +1001,8 @@
     "url": "https://codeium.com",
     "new": false,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "tabnine",
@@ -949,7 +1016,8 @@
     "url": "https://www.tabnine.com",
     "new": false,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "bolt",
@@ -963,7 +1031,8 @@
     "url": "https://bolt.new",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "windsurf",
@@ -977,7 +1046,8 @@
     "url": "https://codeium.com/windsurf",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "salesforce-ai",
@@ -991,7 +1061,8 @@
     "url": "https://www.salesforce.com/jp/products/einstein/",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "hubspot-ai",
@@ -1005,7 +1076,8 @@
     "url": "https://www.hubspot.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "n8n",
@@ -1019,7 +1091,8 @@
     "url": "https://n8n.io",
     "new": true,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "monday-ai",
@@ -1033,7 +1106,8 @@
     "url": "https://monday.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "intercom-ai",
@@ -1047,7 +1121,8 @@
     "url": "https://www.intercom.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "khan-academy",
@@ -1061,7 +1136,8 @@
     "url": "https://ja.khanacademy.org",
     "new": false,
     "featured": true,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "other"
   },
   {
     "id": "photomath",
@@ -1075,7 +1151,8 @@
     "url": "https://photomath.com",
     "new": false,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "google"
   },
   {
     "id": "elsa-speak",
@@ -1089,7 +1166,8 @@
     "url": "https://elsaspeak.com",
     "new": false,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "other"
   },
   {
     "id": "socratic",
@@ -1103,7 +1181,8 @@
     "url": "https://socratic.org",
     "new": false,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "google"
   },
   {
     "id": "coursera-ai",
@@ -1117,7 +1196,8 @@
     "url": "https://www.coursera.org",
     "new": true,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "other"
   },
   {
     "id": "beautifulai",
@@ -1131,7 +1211,8 @@
     "url": "https://www.beautiful.ai",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "lex",
@@ -1145,7 +1226,8 @@
     "url": "https://lex.page",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "wordtune",
@@ -1159,7 +1241,8 @@
     "url": "https://www.wordtune.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "quillbot",
@@ -1173,7 +1256,8 @@
     "url": "https://quillbot.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "hyperwrite",
@@ -1187,7 +1271,8 @@
     "url": "https://www.hyperwriteai.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "imagen3",
@@ -1201,7 +1286,8 @@
     "url": "https://labs.google/fx/tools/image-fx",
     "new": true,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "google"
   },
   {
     "id": "krea",
@@ -1215,7 +1301,8 @@
     "url": "https://www.krea.ai",
     "new": true,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "clipdrop",
@@ -1229,7 +1316,8 @@
     "url": "https://clipdrop.co",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "adobe-express",
@@ -1243,7 +1331,8 @@
     "url": "https://www.adobe.com/jp/express/",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "adobe"
   },
   {
     "id": "microsoft-designer",
@@ -1257,7 +1346,8 @@
     "url": "https://designer.microsoft.com",
     "new": true,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "microsoft"
   },
   {
     "id": "kling",
@@ -1271,7 +1361,8 @@
     "url": "https://klingai.com",
     "new": true,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "hailuo",
@@ -1285,7 +1376,8 @@
     "url": "https://hailuoai.video",
     "new": true,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "capcut-ai",
@@ -1299,7 +1391,8 @@
     "url": "https://www.capcut.com/ja-jp/",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "fliki",
@@ -1313,7 +1406,8 @@
     "url": "https://fliki.ai",
     "new": false,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "pika",
@@ -1327,7 +1421,8 @@
     "url": "https://pika.art",
     "new": true,
     "featured": false,
-    "genre": "creative"
+    "genre": "creative",
+    "vendor": "other"
   },
   {
     "id": "akiflow",
@@ -1341,7 +1436,8 @@
     "url": "https://akiflow.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "sunsama",
@@ -1355,7 +1451,8 @@
     "url": "https://www.sunsama.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "superhuman",
@@ -1369,7 +1466,8 @@
     "url": "https://superhuman.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "shortwave",
@@ -1383,7 +1481,8 @@
     "url": "https://www.shortwave.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "linear-ai",
@@ -1397,7 +1496,8 @@
     "url": "https://linear.app",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "adcreative",
@@ -1411,7 +1511,8 @@
     "url": "https://www.adcreative.ai",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "predis",
@@ -1425,7 +1526,8 @@
     "url": "https://predis.ai",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "taplio",
@@ -1439,7 +1541,8 @@
     "url": "https://taplio.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "ocoya",
@@ -1453,7 +1556,8 @@
     "url": "https://www.ocoya.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "flick",
@@ -1467,7 +1571,8 @@
     "url": "https://www.flick.social",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "blackboxai",
@@ -1481,7 +1586,8 @@
     "url": "https://www.blackbox.ai",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "pieces",
@@ -1495,7 +1601,8 @@
     "url": "https://pieces.app",
     "new": false,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "aider",
@@ -1509,7 +1616,8 @@
     "url": "https://aider.chat",
     "new": false,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "zed",
@@ -1523,7 +1631,8 @@
     "url": "https://zed.dev",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "continue",
@@ -1537,7 +1646,8 @@
     "url": "https://www.continue.dev",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "other"
   },
   {
     "id": "rows",
@@ -1551,7 +1661,8 @@
     "url": "https://rows.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "airtable-ai",
@@ -1565,7 +1676,8 @@
     "url": "https://www.airtable.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "manus",
@@ -1579,7 +1691,8 @@
     "url": "https://manus.im",
     "new": true,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "base44",
@@ -1593,7 +1706,8 @@
     "url": "https://base44.com",
     "new": true,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "taskade",
@@ -1607,7 +1721,8 @@
     "url": "https://www.taskade.com",
     "new": false,
     "featured": false,
-    "genre": "work"
+    "genre": "work",
+    "vendor": "other"
   },
   {
     "id": "consensus",
@@ -1621,7 +1736,8 @@
     "url": "https://consensus.app",
     "new": false,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "other"
   },
   {
     "id": "wolfram",
@@ -1635,7 +1751,8 @@
     "url": "https://www.wolframalpha.com",
     "new": false,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "other"
   },
   {
     "id": "quizlet-ai",
@@ -1649,7 +1766,8 @@
     "url": "https://quizlet.com",
     "new": false,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "other"
   },
   {
     "id": "scribe",
@@ -1663,7 +1781,8 @@
     "url": "https://scribehow.com",
     "new": false,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "other"
   },
   {
     "id": "explain-everything",
@@ -1677,7 +1796,8 @@
     "url": "https://explaineverything.com",
     "new": false,
     "featured": false,
-    "genre": "education"
+    "genre": "education",
+    "vendor": "other"
   },
   {
     "id": "github-copilot-chat",
@@ -1691,7 +1811,8 @@
     "url": "https://github.com/features/copilot",
     "new": false,
     "featured": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-spark",
@@ -1705,7 +1826,8 @@
     "url": "https://github.com/features/spark",
     "new": true,
     "featured": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-models",
@@ -1719,7 +1841,8 @@
     "url": "https://github.com/marketplace/models",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-copilot-agent",
@@ -1733,7 +1856,8 @@
     "url": "https://github.com/features/copilot",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-actions-ai",
@@ -1747,7 +1871,8 @@
     "url": "https://github.com/features/actions",
     "new": false,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-copilot-review",
@@ -1761,7 +1886,8 @@
     "url": "https://github.com/features/copilot",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-mcp",
@@ -1775,7 +1901,8 @@
     "url": "https://github.com/github/github-mcp-server",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-codespaces",
@@ -1789,7 +1916,8 @@
     "url": "https://github.com/features/codespaces",
     "new": false,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-copilot-workspace",
@@ -1803,7 +1931,8 @@
     "url": "https://githubnext.com/projects/copilot-workspace",
     "new": true,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-copilot-cli",
@@ -1817,7 +1946,8 @@
     "url": "https://github.com/github/gh-copilot",
     "new": false,
     "featured": false,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-011",
@@ -1836,7 +1966,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-012",
@@ -1855,7 +1986,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-013",
@@ -1874,7 +2006,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-014",
@@ -1893,7 +2026,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-015",
@@ -1912,7 +2046,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-016",
@@ -1931,7 +2066,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-017",
@@ -1950,7 +2086,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-018",
@@ -1969,7 +2106,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-019",
@@ -1988,7 +2126,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-020",
@@ -2007,7 +2146,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-021",
@@ -2026,7 +2166,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-022",
@@ -2045,7 +2186,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-023",
@@ -2064,7 +2206,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-024",
@@ -2083,7 +2226,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-025",
@@ -2102,7 +2246,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-026",
@@ -2121,7 +2266,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-027",
@@ -2140,7 +2286,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-028",
@@ -2159,7 +2306,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-029",
@@ -2178,7 +2326,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-030",
@@ -2197,7 +2346,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-031",
@@ -2216,7 +2366,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-032",
@@ -2235,7 +2386,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-033",
@@ -2254,7 +2406,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-034",
@@ -2273,7 +2426,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-035",
@@ -2292,7 +2446,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-036",
@@ -2311,7 +2466,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-037",
@@ -2330,7 +2486,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-038",
@@ -2349,7 +2506,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-039",
@@ -2368,7 +2526,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-040",
@@ -2387,7 +2546,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-041",
@@ -2406,7 +2566,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-042",
@@ -2425,7 +2586,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-043",
@@ -2444,7 +2606,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-044",
@@ -2463,7 +2626,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-045",
@@ -2482,7 +2646,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-046",
@@ -2501,7 +2666,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-047",
@@ -2520,7 +2686,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-048",
@@ -2539,7 +2706,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-049",
@@ -2558,7 +2726,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "github-050",
@@ -2577,7 +2746,8 @@
     "iconBg": "#f0fdf4",
     "rating": 4.5,
     "new": true,
-    "genre": "dev"
+    "genre": "dev",
+    "vendor": "github"
   },
   {
     "id": "claude-projects",
@@ -2591,7 +2761,8 @@
     "rating": 4.6,
     "url": "https://claude.ai",
     "new": true,
-    "featured": false
+    "featured": false,
+    "vendor": "anthropic"
   },
   {
     "id": "claude-api",
@@ -2605,7 +2776,8 @@
     "rating": 4.7,
     "url": "https://www.anthropic.com/api",
     "new": false,
-    "featured": false
+    "featured": false,
+    "vendor": "anthropic"
   },
   {
     "id": "claude-ios",
@@ -2619,7 +2791,8 @@
     "rating": 4.5,
     "url": "https://claude.ai/download",
     "new": false,
-    "featured": false
+    "featured": false,
+    "vendor": "anthropic"
   },
   {
     "id": "claude-for-work",
@@ -2633,7 +2806,8 @@
     "rating": 4.6,
     "url": "https://www.anthropic.com/claude-for-work",
     "new": false,
-    "featured": false
+    "featured": false,
+    "vendor": "anthropic"
   },
   {
     "id": "anthropic-console",
@@ -2647,7 +2821,8 @@
     "rating": 4.5,
     "url": "https://console.anthropic.com",
     "new": false,
-    "featured": false
+    "featured": false,
+    "vendor": "anthropic"
   },
   {
     "id": "claude-artifacts",
@@ -2661,6 +2836,7 @@
     "rating": 4.7,
     "url": "https://claude.ai",
     "new": true,
-    "featured": false
+    "featured": false,
+    "vendor": "anthropic"
   }
 ]

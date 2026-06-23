@@ -114,7 +114,7 @@ function applyFilters() {
     const catOK   = activeFilter === 'all' || t.category === activeFilter;
     const priceOK = activePriceFilter === 'all' || t.price === activePriceFilter;
     const q = searchQuery.toLowerCase();
-    const searchOK = q === '' || t.name.toLowerCase().includes(q) || (t.desc || '').toLowerCase().includes(q);
+    const searchOK = q === '' || t.name.toLowerCase().includes(q) || (t.desc || '').toLowerCase().includes(q) || (t.vendor || '').toLowerCase().includes(q);
     return genreOK && catOK && priceOK && searchOK;
   });
 
