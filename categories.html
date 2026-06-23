@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>カテゴリ一覧 | AIしずくネット</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar"><div class="navbar-inner">
+  <a href="index.html" class="navbar-logo"><span class="drop"></span>AIしずくネット</a>
+  <ul class="navbar-nav" id="navMenu">
+    <li><a href="directory.html">ツール一覧</a></li>
+    <li><a href="categories.html">カテゴリ</a></li>
+    <li><a href="blog.html">使い方ガイド</a></li>
+    <li><a href="submit.html" class="nav-submit">＋ ツールを登録</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+</div></nav>
+
+<section style="background:linear-gradient(135deg,var(--sky),#e0f2fe);padding:64px 0;">
+  <div class="container" style="text-align:center;">
+    <h1 style="color:var(--navy);margin-bottom:12px;">カテゴリから探す</h1>
+    <p>やりたいことに合わせてAIツールを選べます</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:32px;">
+
+      <div style="background:white;border:1.5px solid var(--gray-200);border-radius:var(--radius);padding:28px;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--gray-200)'">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;">
+          <div style="font-size:2.5rem;">✍️</div>
+          <div><h2 style="color:var(--navy);font-size:1.3rem;">文章作成</h2><span style="font-size:0.82rem;color:var(--gray-400);">12ツール掲載中</span></div>
+        </div>
+        <p style="color:#475569;font-size:0.9rem;margin-bottom:16px;">ブログ・メール・SNS投稿・企画書など、あらゆる文章作成をAIがサポート。</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;">
+          <span class="badge badge-teal">ChatGPT</span><span class="badge badge-teal">Claude</span><span class="badge badge-teal">Gemini</span><span class="badge badge-teal">Jasper</span>
+        </div>
+        <a href="directory.html?cat=writing" class="btn btn-primary btn-sm">このカテゴリを見る →</a>
+      </div>
+
+      <div style="background:white;border:1.5px solid var(--gray-200);border-radius:var(--radius);padding:28px;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--gray-200)'">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;">
+          <div style="font-size:2.5rem;">🎨</div>
+          <div><h2 style="color:var(--navy);font-size:1.3rem;">デザイン・画像生成</h2><span style="font-size:0.82rem;color:var(--gray-400);">8ツール掲載中</span></div>
+        </div>
+        <p style="color:#475569;font-size:0.9rem;margin-bottom:16px;">チラシ・SNS画像・ロゴ・イラストをAIが自動生成。デザイン知識ゼロでも使えます。</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;">
+          <span class="badge badge-teal">Canva AI</span><span class="badge badge-teal">Midjourney</span><span class="badge badge-teal">Adobe Firefly</span>
+        </div>
+        <a href="directory.html?cat=design" class="btn btn-primary btn-sm">このカテゴリを見る →</a>
+      </div>
+
+      <div style="background:white;border:1.5px solid var(--gray-200);border-radius:var(--radius);padding:28px;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--gray-200)'">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;">
+          <div style="font-size:2.5rem;">⚡</div>
+          <div><h2 style="color:var(--navy);font-size:1.3rem;">仕事効率化</h2><span style="font-size:0.82rem;color:var(--gray-400);">10ツール掲載中</span></div>
+        </div>
+        <p style="color:#475569;font-size:0.9rem;margin-bottom:16px;">会議の議事録・スケジュール管理・タスク整理など、業務をスピードアップ。</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;">
+          <span class="badge badge-teal">Notion AI</span><span class="badge badge-teal">Notta</span><span class="badge badge-teal">Otter.ai</span>
+        </div>
+        <a href="directory.html?cat=productivity" class="btn btn-primary btn-sm">このカテゴリを見る →</a>
+      </div>
+
+      <div style="background:white;border:1.5px solid var(--gray-200);border-radius:var(--radius);padding:28px;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--gray-200)'">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;">
+          <div style="font-size:2.5rem;">🎬</div>
+          <div><h2 style="color:var(--navy);font-size:1.3rem;">動画制作</h2><span style="font-size:0.82rem;color:var(--gray-400);">6ツール掲載中</span></div>
+        </div>
+        <p style="color:#475569;font-size:0.9rem;margin-bottom:16px;">AIが動画を自動生成・編集。地域PR動画・YouTubeコンテンツに活用できます。</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;">
+          <span class="badge badge-teal">HeyGen</span><span class="badge badge-teal">Runway</span><span class="badge badge-teal">Synthesia</span>
+        </div>
+        <a href="directory.html?cat=video" class="btn btn-primary btn-sm">このカテゴリを見る →</a>
+      </div>
+
+      <div style="background:white;border:1.5px solid var(--gray-200);border-radius:var(--radius);padding:28px;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--gray-200)'">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;">
+          <div style="font-size:2.5rem;">📢</div>
+          <div><h2 style="color:var(--navy);font-size:1.3rem;">マーケティング</h2><span style="font-size:0.82rem;color:var(--gray-400);">7ツール掲載中</span></div>
+        </div>
+        <p style="color:#475569;font-size:0.9rem;margin-bottom:16px;">SNS運用・広告コピー・メルマガ・SEO対策をAIが強力バックアップ。</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;">
+          <span class="badge badge-teal">Copy.ai</span><span class="badge badge-teal">Jasper</span><span class="badge badge-teal">Writesonic</span>
+        </div>
+        <a href="directory.html?cat=marketing" class="btn btn-primary btn-sm">このカテゴリを見る →</a>
+      </div>
+
+      <div style="background:white;border:1.5px solid var(--gray-200);border-radius:var(--radius);padding:28px;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='var(--gray-200)'">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;">
+          <div style="font-size:2.5rem;">📚</div>
+          <div><h2 style="color:var(--navy);font-size:1.3rem;">学習・教育</h2><span style="font-size:0.82rem;color:var(--gray-400);">6ツール掲載中</span></div>
+        </div>
+        <p style="color:#475569;font-size:0.9rem;margin-bottom:16px;">子どもの学習補助・語学学習・資格試験対策。地域の学び直しにも使えます。</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;">
+          <span class="badge badge-teal">Khan Academy</span><span class="badge badge-teal">Duolingo</span><span class="badge badge-teal">Khanmigo</span>
+        </div>
+        <a href="directory.html?cat=education" class="btn btn-primary btn-sm">このカテゴリを見る →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer><div class="container">
+  <div class="footer-grid">
+    <div><div class="footer-logo">🌊 AIしずくネット</div><p style="font-size:0.88rem;color:rgba(255,255,255,0.5);">泉南市の住民が使えるAIツールを分かりやすく紹介するサイトです。</p></div>
+    <div><h4>ツールを探す</h4><ul><li><a href="directory.html">全ツール一覧</a></li></ul></div>
+    <div><h4>コンテンツ</h4><ul><li><a href="blog.html">使い方ガイド</a></li></ul></div>
+    <div><h4>サイトについて</h4><ul><li><a href="submit.html">ツールを登録</a></li></ul></div>
+  </div>
+  <div class="footer-copy">© 2026 AIしずくネット</div>
+</div></footer>
+<script src="js/main.js"></script>
+</body></html>

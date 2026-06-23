@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="AIツール一覧 — 文章作成・デザイン・動画・仕事効率化など8カテゴリのAIツールを検索・比較できます。">
+<title>AIツール一覧 | AIしずくネット</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar"><div class="navbar-inner">
+  <a href="index.html" class="navbar-logo"><span class="drop"></span>AIしずくネット</a>
+  <ul class="navbar-nav" id="navMenu">
+    <li><a href="directory.html">ツール一覧</a></li>
+    <li><a href="categories.html">カテゴリ</a></li>
+    <li><a href="blog.html">使い方ガイド</a></li>
+    <li><a href="submit.html" class="nav-submit">＋ ツールを登録</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+</div></nav>
+
+<section style="background:var(--sky);padding:48px 0 24px;">
+  <div class="container">
+    <h1 style="color:var(--navy);margin-bottom:8px;">AIツール一覧</h1>
+    <p>50以上のAIツールを検索・カテゴリ・料金で絞り込めます</p>
+    <div class="search-wrap" style="margin-top:24px;">
+      <input type="text" class="search-input" id="dirSearch" placeholder="ツール名・機能で検索..." oninput="filterTools(this.value)">
+      <button class="search-btn">🔍</button>
+    </div>
+  </div>
+</section>
+
+<section class="section-sm">
+  <div class="container">
+
+    <div class="filter-bar">
+      <button class="filter-chip active" onclick="setFilter(this,'all')">すべて</button>
+      <button class="filter-chip" onclick="setFilter(this,'writing')">✍️ 文章作成</button>
+      <button class="filter-chip" onclick="setFilter(this,'design')">🎨 デザイン</button>
+      <button class="filter-chip" onclick="setFilter(this,'video')">🎬 動画</button>
+      <button class="filter-chip" onclick="setFilter(this,'productivity')">⚡ 仕事効率化</button>
+      <button class="filter-chip" onclick="setFilter(this,'marketing')">📢 マーケティング</button>
+      <button class="filter-chip" onclick="setFilter(this,'coding')">💻 プログラミング</button>
+      <button class="filter-chip" onclick="setFilter(this,'business')">💼 ビジネス</button>
+      <button class="filter-chip" onclick="setFilter(this,'education')">📚 学習</button>
+      <span style="margin-left:auto;display:flex;gap:8px;">
+        <button class="filter-chip" onclick="setPriceFilter(this,'free')">🆓 無料</button>
+        <button class="filter-chip" onclick="setPriceFilter(this,'freemium')">無料プランあり</button>
+        <button class="filter-chip" onclick="setPriceFilter(this,'paid')">有料</button>
+      </span>
+    </div>
+
+    <div class="grid-3" id="toolsGrid">
+
+      <div class="tool-card" data-cat="writing" data-price="freemium">
+        <div class="tool-card-header"><div class="tool-icon" style="background:#f0fdf4;">🤖</div><div><div class="tool-name">ChatGPT</div><span class="badge badge-purple">文章作成</span></div></div>
+        <p class="tool-desc">メール・ブログ・企画書など幅広い文章作成に対応。初心者でも使いやすいAIの定番ツール。</p>
+        <div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.8</span></div>
+        <a href="tool-detail.html?tool=chatgpt" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a>
+      </div>
+
+      <div class="tool-card" data-cat="writing" data-price="freemium">
+        <div class="tool-card-header"><div class="tool-icon" style="background:#fff7ed;">🧠</div><div><div class="tool-name">Claude</div><span class="badge badge-purple">文章作成</span></div></div>
+        <p class="tool-desc">長文・資料の分析・要約が得意なAI。PDFや書類を読み込んで内容を整理するのに最適。</p>
+        <div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.7</span></div>
+        <a href="tool-detail.html?tool=claude" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a>
+      </div>
+
+      <div class="tool-card" data-cat="design" data-price="freemium">
+        <div class="tool-card-header"><div class="tool-icon" style="background:#eff6ff;">✨</div><div><div class="tool-name">Canva AI</div><span class="badge badge-teal">デザイン</span></div></div>
+        <p class="tool-desc">チラシ・SNS投稿・プレゼン資料を簡単に作れる。AIが自動でデザインを提案してくれる。</p>
+        <div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.7</span></div>
+        <a href="tool-detail.html?tool=canva" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a>
+      </div>
+
+      <div class="tool-card" data-cat="productivity" data-price="freemium">
+        <div class="tool-card-header"><div class="tool-icon" style="background:#fef9c3;">🎙️</div><div><div class="tool-name">Notta</div><span class="badge badge-blue">仕事効率化</span></div></div>
+        <p class="tool-desc">会議・インタビューをリアルタイムで自動文字起こし。議事録作成の時間を大幅に短縮。</p>
+        <div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.6</span></div>
+        <a href="tool-detail.html?tool=notta" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a>
+      </div>
+
+      <div class="tool-card" data-cat="design" data-price="paid">
+        <div class="tool-card-header"><div class="tool-icon" style="background:#fdf4ff;">🖼️</div><div><div class="tool-name">Midjourney</div><span class="badge badge-orange">デザイン</span></div></div>
+        <p class="tool-desc">テキストから高品質な画像を生成。ポスター・アイコン・イラストを即座に作成できる。</p>
+        <div class="tool-meta"><span class="badge badge-paid">有料</span><span class="rating">⭐ 4.9</span></div>
+        <a href="tool-detail.html?tool=midjourney" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a>
+      </div>
+
+      <div class="tool-card" data-cat="productivity" data-price="freemium">
+        <div class="tool-card-header"><div class="tool-icon" style="background:#f0fdf4;">📊</div><div><div class="tool-name">Notion AI</div><span class="badge badge-blue">仕事効率化</span></div></div>
+        <p class="tool-desc">ノート・タスク管理・プロジェクト管理をAIがサポート。チームでの共同作業に最適。</p>
+        <div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.5</span></div>
+        <a href="tool-detail.html?tool=notion" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a>
+      </div>
+
+      <div class="tool-card" data-cat="video" data-price="freemium">
+        <div class="tool-card-header"><div class="tool-icon" style="background:#fff7ed;">📹</div><div><div class="tool-name">HeyGen</div><span class="badge badge-orange">動画</span></div></div>
+        <p class="tool-desc">AIアバターが動画を自動作成。テキストを入力するだけで説明動画が完成。</p>
+        <div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.4</span></div>
+        <a href="tool-detail.html?tool=heygen" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a>
+      </div>
+
+      <div class="tool-card" data-cat="marketing" data-price="freemium">
+        <div class="tool-card-header"><div class="tool-icon" style="background:#eff6ff;">📢</div><div><div class="tool-name">Copy.ai</div><span class="badge badge-green">マーケティング</span></div></div>
+        <p class="tool-desc">SNS投稿・広告コピー・商品説明文をAIが自動生成。マーケティング文章作成の時短に。</p>
+        <div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.3</span></div>
+        <a href="tool-detail.html?tool=copyai" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a>
+      </div>
+
+      <div class="tool-card" data-cat="coding" data-price="freemium">
+        <div class="tool-card-header"><div class="tool-icon" style="background:#f0fdf4;">💻</div><div><div class="tool-name">GitHub Copilot</div><span class="badge badge-blue">プログラミング</span></div></div>
+        <p class="tool-desc">コードの自動補完・提案。プログラミング作業を大幅にスピードアップできる。</p>
+        <div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.8</span></div>
+        <a href="tool-detail.html?tool=copilot" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a>
+      </div>
+
+    </div>
+
+    <div id="noResults" class="hidden" style="text-align:center;padding:40px;color:var(--gray-400);">
+      <div style="font-size:2.5rem;margin-bottom:12px;">🔍</div>
+      <p>条件に合うツールが見つかりませんでした。別のキーワードで試してみてください。</p>
+    </div>
+
+  </div>
+</section>
+
+<footer><div class="container">
+  <div class="footer-grid">
+    <div><div class="footer-logo">🌊 AIしずくネット</div><p style="font-size:0.88rem;color:rgba(255,255,255,0.5);">泉南市の住民が使えるAIツールを<br>分かりやすく紹介するサイトです。</p></div>
+    <div><h4>ツールを探す</h4><ul><li><a href="directory.html">全ツール一覧</a></li><li><a href="categories.html">カテゴリ別</a></li></ul></div>
+    <div><h4>コンテンツ</h4><ul><li><a href="blog.html">使い方ガイド</a></li></ul></div>
+    <div><h4>サイトについて</h4><ul><li><a href="submit.html">ツールを登録</a></li></ul></div>
+  </div>
+  <div class="footer-copy">© 2026 AIしずくネット</div>
+</div></footer>
+<script src="js/main.js"></script>
+</body></html>

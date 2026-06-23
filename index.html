@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="AIしずくネット — 泉南市を便利にするAIツールが集まるディレクトリ。">
+<title>AIしずくネット — 泉南市のためのAIツール案内</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar"><div class="navbar-inner">
+  <a href="index.html" class="navbar-logo"><span class="drop"></span>AIしずくネット</a>
+  <ul class="navbar-nav" id="navMenu">
+    <li><a href="directory.html">ツール一覧</a></li>
+    <li><a href="categories.html">カテゴリ</a></li>
+    <li><a href="blog.html">使い方ガイド</a></li>
+    <li><a href="submit.html" class="nav-submit">＋ ツールを登録</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+</div></nav>
+
+<section class="hero-bg" style="background:linear-gradient(145deg,#0A2342 0%,#0c3460 60%,#164e63 100%);padding:100px 0 80px;">
+  <div class="ripple-ring" style="width:400px;height:400px;left:50%;top:50%;margin-left:-200px;margin-top:-200px;animation-delay:0s;"></div>
+  <div class="ripple-ring" style="width:400px;height:400px;left:50%;top:50%;margin-left:-200px;margin-top:-200px;animation-delay:1.3s;"></div>
+  <div class="ripple-ring" style="width:400px;height:400px;left:50%;top:50%;margin-left:-200px;margin-top:-200px;animation-delay:2.6s;"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div style="text-align:center;color:white;margin-bottom:48px;">
+      <div style="display:inline-block;background:rgba(0,201,167,0.15);border:1px solid rgba(0,201,167,0.4);border-radius:20px;padding:6px 18px;font-size:0.85rem;color:#00C9A7;margin-bottom:20px;">🌊 泉南市発・AIツール案内サイト</div>
+      <h1 style="color:white;margin-bottom:16px;">難しくない。<span style="color:#00C9A7;">AIを使えば、</span><br>泉南の毎日がもっと便利に。</h1>
+      <p style="color:rgba(255,255,255,0.7);font-size:1.1rem;max-width:560px;margin:0 auto 40px;">仕事・地域活動・子育て・まちづくり。目的にあったAIツールをすぐ見つけられます。</p>
+      <div class="search-wrap">
+        <input type="text" class="search-input" id="heroSearch" placeholder="例：文章を書くAI、画像生成、会議の要約...">
+        <button class="search-btn" onclick="goSearch()">🔍</button>
+      </div>
+      <p style="color:rgba(255,255,255,0.4);font-size:0.82rem;margin-top:12px;">よく検索される：文章作成　画像生成　翻訳　議事録</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:600px;margin:0 auto;">
+      <div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:12px;padding:20px;text-align:center;"><div style="font-size:2rem;font-weight:800;color:#00C9A7;">50+</div><div style="font-size:0.8rem;color:rgba(255,255,255,0.6);">掲載AIツール</div></div>
+      <div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:12px;padding:20px;text-align:center;"><div style="font-size:2rem;font-weight:800;color:#00C9A7;">8</div><div style="font-size:0.8rem;color:rgba(255,255,255,0.6);">カテゴリ</div></div>
+      <div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:12px;padding:20px;text-align:center;"><div style="font-size:2rem;font-weight:800;color:#00C9A7;">無料</div><div style="font-size:0.8rem;color:rgba(255,255,255,0.6);">情報提供</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-sm" style="background:var(--sky);">
+  <div class="container">
+    <h2 class="section-title">カテゴリから探す</h2>
+    <p class="section-sub">何に使いたいか決まっている方はこちらから</p>
+    <div class="category-grid">
+      <a href="directory.html?cat=writing" class="cat-chip"><span class="icon">✍️</span><span class="label">文章作成</span><span class="count">12ツール</span></a>
+      <a href="directory.html?cat=design" class="cat-chip"><span class="icon">🎨</span><span class="label">デザイン</span><span class="count">8ツール</span></a>
+      <a href="directory.html?cat=video" class="cat-chip"><span class="icon">🎬</span><span class="label">動画</span><span class="count">6ツール</span></a>
+      <a href="directory.html?cat=productivity" class="cat-chip"><span class="icon">⚡</span><span class="label">仕事効率化</span><span class="count">10ツール</span></a>
+      <a href="directory.html?cat=marketing" class="cat-chip"><span class="icon">📢</span><span class="label">マーケティング</span><span class="count">7ツール</span></a>
+      <a href="directory.html?cat=coding" class="cat-chip"><span class="icon">💻</span><span class="label">プログラミング</span><span class="count">5ツール</span></a>
+      <a href="directory.html?cat=business" class="cat-chip"><span class="icon">💼</span><span class="label">ビジネス</span><span class="count">8ツール</span></a>
+      <a href="directory.html?cat=education" class="cat-chip"><span class="icon">📚</span><span class="label">学習・教育</span><span class="count">6ツール</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">泉南市民におすすめのAIツール</h2>
+    <p class="section-sub">初めての方でも今日から使えるツールを厳選しました</p>
+    <div class="grid-3">
+      <div class="tool-card"><div class="tool-card-header"><div class="tool-icon" style="background:#f0fdf4;">🤖</div><div><div class="tool-name">ChatGPT</div><span class="badge badge-purple">文章作成</span></div></div><p class="tool-desc">何でも相談できるAI。メールの下書き・翻訳・調べ物まで何でもこなす万能ツール。</p><div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.8</span></div><a href="tool-detail.html" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a></div>
+      <div class="tool-card"><div class="tool-card-header"><div class="tool-icon" style="background:#eff6ff;">✨</div><div><div class="tool-name">Canva AI</div><span class="badge badge-teal">デザイン</span></div></div><p class="tool-desc">チラシ・SNS投稿・プレゼン資料を簡単に作れる。地域のイベント告知にも最適。</p><div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.7</span></div><a href="tool-detail.html" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a></div>
+      <div class="tool-card"><div class="tool-card-header"><div class="tool-icon" style="background:#fef9c3;">🎙️</div><div><div class="tool-name">Notta</div><span class="badge badge-blue">仕事効率化</span></div></div><p class="tool-desc">会議・インタビューを自動文字起こし。議事録作成が5分でできる。</p><div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.6</span></div><a href="tool-detail.html" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a></div>
+      <div class="tool-card"><div class="tool-card-header"><div class="tool-icon" style="background:#fdf4ff;">🖼️</div><div><div class="tool-name">Midjourney</div><span class="badge badge-orange">デザイン</span></div></div><p class="tool-desc">テキストから美しい画像を生成。地域PRポスターやSNSアイコン作りに使える。</p><div class="tool-meta"><span class="badge badge-paid">有料</span><span class="rating">⭐ 4.9</span></div><a href="tool-detail.html" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a></div>
+      <div class="tool-card"><div class="tool-card-header"><div class="tool-icon" style="background:#f0fdf4;">📊</div><div><div class="tool-name">Notion AI</div><span class="badge badge-blue">仕事効率化</span></div></div><p class="tool-desc">メモ・タスク管理・議事録をまとめてAIがサポート。チーム共同作業に最適。</p><div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.5</span></div><a href="tool-detail.html" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a></div>
+      <div class="tool-card"><div class="tool-card-header"><div class="tool-icon" style="background:#fff7ed;">📹</div><div><div class="tool-name">HeyGen</div><span class="badge badge-orange">動画</span></div></div><p class="tool-desc">AIアバターが自動で動画を作成。地域活動の広報動画を低コストで制作できる。</p><div class="tool-meta"><span class="badge badge-freemium">無料プランあり</span><span class="rating">⭐ 4.4</span></div><a href="tool-detail.html" class="btn btn-primary btn-sm" style="margin-top:8px;">詳しく見る →</a></div>
+    </div>
+    <div style="text-align:center;margin-top:40px;"><a href="directory.html" class="btn btn-outline">すべてのツールを見る →</a></div>
+  </div>
+</section>
+
+<section class="section-sm" style="background:var(--sky);">
+  <div class="container">
+    <h2 class="section-title">今週の新着ツール 🆕</h2>
+    <div class="grid-2" style="max-width:800px;margin:0 auto;">
+      <div class="card" style="display:flex;gap:16px;align-items:flex-start;"><div style="width:44px;height:44px;background:#eff6ff;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;">🎵</div><div><div style="font-weight:700;color:var(--navy);margin-bottom:4px;">Suno AI</div><div style="font-size:0.83rem;color:#64748b;margin-bottom:8px;">テキストから音楽を自動生成。地域イベント用BGMにも。</div><span class="badge badge-freemium">無料プランあり</span></div></div>
+      <div class="card" style="display:flex;gap:16px;align-items:flex-start;"><div style="width:44px;height:44px;background:#f0fdf4;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;">📝</div><div><div style="font-weight:700;color:var(--navy);margin-bottom:4px;">Claude</div><div style="font-size:0.83rem;color:#64748b;margin-bottom:8px;">Anthropic製のAIアシスタント。長文・資料分析が得意。</div><span class="badge badge-freemium">無料プランあり</span></div></div>
+      <div class="card" style="display:flex;gap:16px;align-items:flex-start;"><div style="width:44px;height:44px;background:#fdf4ff;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;">🗺️</div><div><div style="font-weight:700;color:var(--navy);margin-bottom:4px;">Gamma</div><div style="font-size:0.83rem;color:#64748b;margin-bottom:8px;">AIがプレゼン資料を自動作成。キーワード入力だけでOK。</div><span class="badge badge-freemium">無料プランあり</span></div></div>
+      <div class="card" style="display:flex;gap:16px;align-items:flex-start;"><div style="width:44px;height:44px;background:#fff7ed;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;">🔍</div><div><div style="font-weight:700;color:var(--navy);margin-bottom:4px;">Perplexity</div><div style="font-size:0.83rem;color:#64748b;margin-bottom:8px;">AI検索エンジン。情報ソース付きで信頼性の高い回答。</div><span class="badge badge-freemium">無料プランあり</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">主要AIチャットツール 比較表</h2>
+    <p class="section-sub">どれを選べばいい？一目で分かる比較</p>
+    <div style="overflow-x:auto;">
+      <table class="compare-table">
+        <tr><th>ツール名</th><th>日本語対応</th><th>無料プラン</th><th>画像生成</th><th>ファイル読込</th><th>おすすめ用途</th></tr>
+        <tr><td><strong>ChatGPT</strong></td><td><span class="check">◎</span></td><td><span class="check">◎</span></td><td><span class="check">◎</span></td><td><span class="check">◎</span></td><td>万能・初心者向け</td></tr>
+        <tr><td><strong>Claude</strong></td><td><span class="check">◎</span></td><td><span class="check">◎</span></td><td><span class="cross">✗</span></td><td><span class="check">◎</span></td><td>長文・資料分析</td></tr>
+        <tr><td><strong>Gemini</strong></td><td><span class="check">◎</span></td><td><span class="check">◎</span></td><td><span class="check">○</span></td><td><span class="check">○</span></td><td>Google連携・検索</td></tr>
+        <tr><td><strong>Copilot</strong></td><td><span class="check">◎</span></td><td><span class="check">◎</span></td><td><span class="check">◎</span></td><td><span class="check">○</span></td><td>Microsoft Office連携</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section style="background:linear-gradient(135deg,#0A2342,#164e63);padding:72px 0;">
+  <div class="container" style="text-align:center;">
+    <div style="font-size:2rem;margin-bottom:16px;">💌</div>
+    <h2 style="color:white;margin-bottom:12px;">新着AIツール情報をメールでお届け</h2>
+    <p style="color:rgba(255,255,255,0.7);margin-bottom:32px;">週1回、泉南市民に役立つAIツール情報をまとめてお届けします</p>
+    <div class="newsletter-form">
+      <input type="email" class="newsletter-input" placeholder="メールアドレスを入力">
+      <button class="btn btn-primary">登録する</button>
+    </div>
+  </div>
+</section>
+
+<section class="section-sm" style="background:var(--sky);">
+  <div class="container" style="text-align:center;">
+    <h2 style="color:var(--navy);margin-bottom:12px;">あなたが知っているAIツールを紹介してください</h2>
+    <p style="margin-bottom:28px;">地域で使えるAIツールの情報をみんなで集めています。</p>
+    <a href="submit.html" class="btn btn-orange">＋ ツールを登録する</a>
+  </div>
+</section>
+
+<footer><div class="container">
+  <div class="footer-grid">
+    <div><div class="footer-logo">🌊 AIしずくネット</div><p style="font-size:0.88rem;color:rgba(255,255,255,0.5);">泉南市の住民が使えるAIツールを分かりやすく紹介するサイトです。</p></div>
+    <div><h4>ツールを探す</h4><ul><li><a href="directory.html">全ツール一覧</a></li><li><a href="categories.html">カテゴリ別</a></li></ul></div>
+    <div><h4>コンテンツ</h4><ul><li><a href="blog.html">使い方ガイド</a></li></ul></div>
+    <div><h4>サイトについて</h4><ul><li><a href="submit.html">ツールを登録</a></li></ul></div>
+  </div>
+  <div class="footer-copy">© 2026 AIしずくネット — 泉南市のためのAIツール案内</div>
+</div></footer>
+<script src="js/main.js"></script>
+</body></html>

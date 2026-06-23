@@ -1,0 +1,10 @@
+function toggleMenu(){const m=document.getElementById('navMenu');if(m)m.classList.toggle('open');}
+function goSearch(){const q=document.getElementById('heroSearch');if(q&&q.value.trim())window.location.href='directory.html?q='+encodeURIComponent(q.value.trim());}
+if(document.getElementById('heroSearch'))document.getElementById('heroSearch').addEventListener('keydown',function(e){if(e.key==='Enter')goSearch();});
+function filterTools(query){const cards=document.querySelectorAll('.tool-card');const nr=document.getElementById('noResults');let v=0;const q=query.toLowerCase();cards.forEach(c=>{const show=q===''||c.textContent.toLowerCase().includes(q);c.style.display=show?'':'none';if(show)v++;});if(nr)nr.classList.toggle('hidden',v>0);}
+let activeFilter='all',activePriceFilter='all';
+function setFilter(btn,cat){document.querySelectorAll('.filter-chip').forEach(c=>c.classList.remove('active'));btn.classList.add('active');activeFilter=cat;applyFilters();}
+function setPriceFilter(btn,price){activePriceFilter=activePriceFilter===price?'all':price;btn.classList.toggle('active',activePriceFilter!=='all');applyFilters();}
+function applyFilters(){const cards=document.querySelectorAll('.tool-card');const nr=document.getElementById('noResults');let v=0;cards.forEach(c=>{const show=(activeFilter==='all'||c.dataset.cat===activeFilter)&&(activePriceFilter==='all'||c.dataset.price===activePriceFilter);c.style.display=show?'':'none';if(show)v++;});if(nr)nr.classList.toggle('hidden',v>0);}
+window.addEventListener('DOMContentLoaded',function(){const p=new URLSearchParams(window.location.search);const cat=p.get('cat');const q=p.get('q');if(cat){const btn=document.querySelector('[onclick*="'+cat+'"]');if(btn)setFilter(btn,cat);}if(q){const si=document.getElementById('dirSearch');if(si){si.value=q;filterTools(q);}}});
+function handleSubmit(e){e.preventDefault();const f=document.getElementById('submitForm');const s=document.getElementById('submitSuccess');if(f&&s){f.style.display='none';s.classList.remove('hidden');window.scrollTo({top:s.offsetTop-100,behavior:'smooth'});}}
